@@ -30,6 +30,14 @@ git config --global user.email name@mcnameface.nom
 Always pull first before push. Cannot push unless local is up to date with remote.
 Never use : git stash
 
+Branching : 
+
+1. git checkout -b Rajorshi		(Makes new branch)
+2. git push --set-upstream origin Rajorshi	(Push own branch to remote)
+3. git fetch origin			(Pull all branches from remote, only metadata, not data/files)
+4. git checkout branchname		(Switch to a specific branch, copies data to local)
+5. git branch -a			(View all branches, plus current location)	(or  git branch --all)
+
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
