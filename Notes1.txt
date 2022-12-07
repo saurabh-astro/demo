@@ -1,0 +1,36 @@
+Fetching from remote :
+1. git clone https://github.com/saurabh-astro/demo.git (Must be sitting outside any other repository folder; sit in folder where you want to clone)
+
+Onetime config
+
+git config --global user.name NameyMcNameface
+git config --global user.email name@mcnameface.nom
+
+1. Create file (in local) and tell git to track it. Tracking is not automatic. Once tracking start, it is staged. 
+2. After staging, commit. Commit means telling git the changes in this version, as a message.
+2a. git status			#tells what files you have added and are about to commit
+3. After commit, Push it (to remote)
+3a. Have to generate an ssh token to sign in to github online to commit (Not necessary for windows using authenticator app)
+3b. git fetch origin (switched to origin/master)
+3c. git checkout master (do this when in the repository file path) (This updates the local directory by downloading from remote)
+
+
+1. git add filename.py
+2. git commit -m "this is a message"
+
+3. git push				(push to main worked normally. )
+3a. git push origin master		(to specify which branch to push in)
+
+4. git pull 				(pulls remote data to local)
+4a. git pull origin master 		(to specify which branch to pull from)
+
+5. git log				(shows new updates) The commit SHA string takes you back to the prev version
+6. git status			(show your own updates, tracks, which branch, what you have staged and committed)
+
+Always pull first before push. Cannot push unless local is up to date with remote.
+Never use : git stash
+
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+Extra resources : https://www.w3schools.com/git/
