@@ -1,0 +1,9 @@
+git status
+git diff
+git add lab_demo.py
+git commit -m "Changed by akd"
+git push
+git pull
+git checkout 402e0e42bcc3ca2102197ae1a1280e8a5d56a5b0
+git checkout main
+git log
