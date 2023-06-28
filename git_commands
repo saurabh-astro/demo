@@ -1,6 +1,7 @@
 git status
 git diff
 git add lab_demo.py
+git add -u
 git commit -m "Changed by akd"
 git push
 git pull
