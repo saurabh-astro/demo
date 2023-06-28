@@ -1,3 +1,4 @@
+git clone <link>
 git status
 git diff
 git add lab_demo.py
@@ -8,3 +9,9 @@ git pull
 git checkout 402e0e42bcc3ca2102197ae1a1280e8a5d56a5b0
 git checkout main
 git log
+
+git checkout -b <branch name>
+git merge main  #do it when you are in branch to add main files to your branch
+git rm <file name>
+git push origin main
+git fetch origin  #gives update of added branches
